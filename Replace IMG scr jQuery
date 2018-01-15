@@ -1,0 +1,5 @@
+
+var $content = jQuery('#content');
+$content.find('img.someClass').attr("src", function(index, attr){
+        return attr.replace("-270x270.jpg", ".jpg");
+    });
